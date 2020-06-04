@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, a, button { /* I think specifying this on 'a' elements overrides the ugly purple default */
+    background-color: #24252A;
+    font-family: "Lexend Tera", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f1;
+    margin-left: 5px;
+}
+
+p {
+    padding: 5px;
+    color: #f2f279;
+}
+
+h1, h2, h3 {
+    color: #ebcd4b;
+}
+
+.piotroski_item {
+    margin-left: 15px;
+}
+
+.piotroski_score {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar-collapse {
+    list-style: none;
+}
+
+.navbar-collapse li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-collapse li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-collapse li a:hover {
+    color: #00a9c6;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+}
+
+/*  TODO: Override the debug menu items
+    TODO: Make the Submit button inline */
