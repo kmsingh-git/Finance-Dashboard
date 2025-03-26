@@ -3,8 +3,6 @@
 I was teaching myself Dash Plotly, as well as some finance, and CSS.
 This dashboard represents a milestone in that journey. Feel free to copy the code.
 
-<p> The link for the website is https://finance-dashboard-kms.herokuapp.com/
-
 # Bonus - Simulating Dice Rolls
 
 If you play around with the Simulating Dice Rolls Tab, you can see both the Central Limit Theorem and the Weak Law of Large Numbers at work:
